@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		D40EF3BE22FF94C7001A6EA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40EF3BD22FF94C7001A6EA4 /* AppDelegate.swift */; };
-		D40EF3C022FF94C7001A6EA4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40EF3BF22FF94C7001A6EA4 /* ViewController.swift */; };
+		D40EF3C022FF94C7001A6EA4 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40EF3BF22FF94C7001A6EA4 /* MainViewController.swift */; };
 		D40EF3C322FF94C7001A6EA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D40EF3C122FF94C7001A6EA4 /* Main.storyboard */; };
 		D40EF3C522FF94C8001A6EA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D40EF3C422FF94C8001A6EA4 /* Assets.xcassets */; };
 		D40EF3C822FF94C8001A6EA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D40EF3C622FF94C8001A6EA4 /* LaunchScreen.storyboard */; };
 		D40EF3D322FF94C9001A6EA4 /* SummerCampNewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40EF3D222FF94C9001A6EA4 /* SummerCampNewsTests.swift */; };
 		D40EF3DE22FF94C9001A6EA4 /* SummerCampNewsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40EF3DD22FF94C9001A6EA4 /* SummerCampNewsUITests.swift */; };
+		D4B97E5022FFA97A0022E906 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B97E4F22FFA97A0022E906 /* NewsViewController.swift */; };
 		DDADCC2E4FCB1A8EA00189EA /* Pods_SummerCampNews.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC123C05CD3F86500D926ACE /* Pods_SummerCampNews.framework */; };
 /* End PBXBuildFile section */
 
@@ -39,7 +40,7 @@
 		8972F64E480EAEBB8CCB18EC /* Pods-SummerCampNews.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SummerCampNews.release.xcconfig"; path = "Target Support Files/Pods-SummerCampNews/Pods-SummerCampNews.release.xcconfig"; sourceTree = "<group>"; };
 		D40EF3BA22FF94C7001A6EA4 /* SummerCampNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SummerCampNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D40EF3BD22FF94C7001A6EA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D40EF3BF22FF94C7001A6EA4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D40EF3BF22FF94C7001A6EA4 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		D40EF3C222FF94C7001A6EA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D40EF3C422FF94C8001A6EA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D40EF3C722FF94C8001A6EA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -50,6 +51,7 @@
 		D40EF3D922FF94C9001A6EA4 /* SummerCampNewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SummerCampNewsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D40EF3DD22FF94C9001A6EA4 /* SummerCampNewsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummerCampNewsUITests.swift; sourceTree = "<group>"; };
 		D40EF3DF22FF94C9001A6EA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4B97E4F22FFA97A0022E906 /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
 		DC123C05CD3F86500D926ACE /* Pods_SummerCampNews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SummerCampNews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -105,7 +107,8 @@
 			isa = PBXGroup;
 			children = (
 				D40EF3BD22FF94C7001A6EA4 /* AppDelegate.swift */,
-				D40EF3BF22FF94C7001A6EA4 /* ViewController.swift */,
+				D40EF3BF22FF94C7001A6EA4 /* MainViewController.swift */,
+				D4B97E4F22FFA97A0022E906 /* NewsViewController.swift */,
 				D40EF3C122FF94C7001A6EA4 /* Main.storyboard */,
 				D40EF3C422FF94C8001A6EA4 /* Assets.xcassets */,
 				D40EF3C622FF94C8001A6EA4 /* LaunchScreen.storyboard */,
@@ -324,7 +327,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D40EF3C022FF94C7001A6EA4 /* ViewController.swift in Sources */,
+				D4B97E5022FFA97A0022E906 /* NewsViewController.swift in Sources */,
+				D40EF3C022FF94C7001A6EA4 /* MainViewController.swift in Sources */,
 				D40EF3BE22FF94C7001A6EA4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
