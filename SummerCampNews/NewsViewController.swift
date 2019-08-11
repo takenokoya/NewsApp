@@ -47,6 +47,8 @@ class NewsViewController: UIViewController, IndicatorInfoProvider, UITableViewDe
     //xmlファイルのリンク情報
     var linkString = NSMutableString()
     
+    var refreshControl: UIRefreshControl!
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return articles.count
     }
@@ -119,11 +121,30 @@ class NewsViewController: UIViewController, IndicatorInfoProvider, UITableViewDe
         tableView.frame = CGRect(x: 0, y: 50, width: self.view.frame.width, height: self.view.frame.height - 50)
         self.view.addSubview(tableView)
 
+        // refreshcontrol インスタンス作成
+        refreshControl = UIRefreshControl()
+        refreshControl.addTarget(self, action: #selector(refresh), for: .valueChanged)
+
+        // refreshControlをテーブルに繋げる
+        tableView.addSubview(refreshControl)
+        
         //最初はTableViewを表示したいためtoolbarとwebviewを隠しておく
         UIToolbar.isHidden = true
         webView.isHidden = true
         
         parseUrl()
+    }
+    
+    // objective-Cのfunctionを定義
+    @objc func refresh() {
+        // ２秒後にdelayを呼ぶ
+        perform(#selector(delay), with: nil, afterDelay: 2.0)
+    }
+    
+    @objc func delay() {
+        parseUrl()
+        // インジケータ終了
+        refreshControl.endRefreshing()
     }
     
     // URLを解析する
