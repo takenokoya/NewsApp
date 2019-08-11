@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D40EF3BE22FF94C7001A6EA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40EF3BD22FF94C7001A6EA4 /* AppDelegate.swift */; };
+		D40EF3C022FF94C7001A6EA4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40EF3BF22FF94C7001A6EA4 /* ViewController.swift */; };
+		D40EF3C322FF94C7001A6EA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D40EF3C122FF94C7001A6EA4 /* Main.storyboard */; };
+		D40EF3C522FF94C8001A6EA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D40EF3C422FF94C8001A6EA4 /* Assets.xcassets */; };
+		D40EF3C822FF94C8001A6EA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D40EF3C622FF94C8001A6EA4 /* LaunchScreen.storyboard */; };
+		D40EF3D322FF94C9001A6EA4 /* SummerCampNewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40EF3D222FF94C9001A6EA4 /* SummerCampNewsTests.swift */; };
+		D40EF3DE22FF94C9001A6EA4 /* SummerCampNewsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40EF3DD22FF94C9001A6EA4 /* SummerCampNewsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D40EF3CF22FF94C9001A6EA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D40EF3B222FF94C7001A6EA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D40EF3B922FF94C7001A6EA4;
+			remoteInfo = SummerCampNews;
+		};
+		D40EF3DA22FF94C9001A6EA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D40EF3B222FF94C7001A6EA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D40EF3B922FF94C7001A6EA4;
+			remoteInfo = SummerCampNews;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D40EF3BA22FF94C7001A6EA4 /* SummerCampNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SummerCampNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D40EF3BD22FF94C7001A6EA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D40EF3BF22FF94C7001A6EA4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D40EF3C222FF94C7001A6EA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D40EF3C422FF94C8001A6EA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D40EF3C722FF94C8001A6EA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D40EF3C922FF94C8001A6EA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D40EF3CE22FF94C9001A6EA4 /* SummerCampNewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SummerCampNewsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D40EF3D222FF94C9001A6EA4 /* SummerCampNewsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummerCampNewsTests.swift; sourceTree = "<group>"; };
+		D40EF3D422FF94C9001A6EA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D40EF3D922FF94C9001A6EA4 /* SummerCampNewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SummerCampNewsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D40EF3DD22FF94C9001A6EA4 /* SummerCampNewsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummerCampNewsUITests.swift; sourceTree = "<group>"; };
+		D40EF3DF22FF94C9001A6EA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D40EF3B722FF94C7001A6EA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D40EF3CB22FF94C9001A6EA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D40EF3D622FF94C9001A6EA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D40EF3B122FF94C7001A6EA4 = {
+			isa = PBXGroup;
+			children = (
+				D40EF3BC22FF94C7001A6EA4 /* SummerCampNews */,
+				D40EF3D122FF94C9001A6EA4 /* SummerCampNewsTests */,
+				D40EF3DC22FF94C9001A6EA4 /* SummerCampNewsUITests */,
+				D40EF3BB22FF94C7001A6EA4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D40EF3BB22FF94C7001A6EA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D40EF3BA22FF94C7001A6EA4 /* SummerCampNews.app */,
+				D40EF3CE22FF94C9001A6EA4 /* SummerCampNewsTests.xctest */,
+				D40EF3D922FF94C9001A6EA4 /* SummerCampNewsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D40EF3BC22FF94C7001A6EA4 /* SummerCampNews */ = {
+			isa = PBXGroup;
+			children = (
+				D40EF3BD22FF94C7001A6EA4 /* AppDelegate.swift */,
+				D40EF3BF22FF94C7001A6EA4 /* ViewController.swift */,
+				D40EF3C122FF94C7001A6EA4 /* Main.storyboard */,
+				D40EF3C422FF94C8001A6EA4 /* Assets.xcassets */,
+				D40EF3C622FF94C8001A6EA4 /* LaunchScreen.storyboard */,
+				D40EF3C922FF94C8001A6EA4 /* Info.plist */,
+			);
+			path = SummerCampNews;
+			sourceTree = "<group>";
+		};
+		D40EF3D122FF94C9001A6EA4 /* SummerCampNewsTests */ = {
+			isa = PBXGroup;
+			children = (
+				D40EF3D222FF94C9001A6EA4 /* SummerCampNewsTests.swift */,
+				D40EF3D422FF94C9001A6EA4 /* Info.plist */,
+			);
+			path = SummerCampNewsTests;
+			sourceTree = "<group>";
+		};
+		D40EF3DC22FF94C9001A6EA4 /* SummerCampNewsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D40EF3DD22FF94C9001A6EA4 /* SummerCampNewsUITests.swift */,
+				D40EF3DF22FF94C9001A6EA4 /* Info.plist */,
+			);
+			path = SummerCampNewsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D40EF3B922FF94C7001A6EA4 /* SummerCampNews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D40EF3E222FF94C9001A6EA4 /* Build configuration list for PBXNativeTarget "SummerCampNews" */;
+			buildPhases = (
+				D40EF3B622FF94C7001A6EA4 /* Sources */,
+				D40EF3B722FF94C7001A6EA4 /* Frameworks */,
+				D40EF3B822FF94C7001A6EA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SummerCampNews;
+			productName = SummerCampNews;
+			productReference = D40EF3BA22FF94C7001A6EA4 /* SummerCampNews.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D40EF3CD22FF94C9001A6EA4 /* SummerCampNewsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D40EF3E522FF94C9001A6EA4 /* Build configuration list for PBXNativeTarget "SummerCampNewsTests" */;
+			buildPhases = (
+				D40EF3CA22FF94C9001A6EA4 /* Sources */,
+				D40EF3CB22FF94C9001A6EA4 /* Frameworks */,
+				D40EF3CC22FF94C9001A6EA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D40EF3D022FF94C9001A6EA4 /* PBXTargetDependency */,
+			);
+			name = SummerCampNewsTests;
+			productName = SummerCampNewsTests;
+			productReference = D40EF3CE22FF94C9001A6EA4 /* SummerCampNewsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D40EF3D822FF94C9001A6EA4 /* SummerCampNewsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D40EF3E822FF94C9001A6EA4 /* Build configuration list for PBXNativeTarget "SummerCampNewsUITests" */;
+			buildPhases = (
+				D40EF3D522FF94C9001A6EA4 /* Sources */,
+				D40EF3D622FF94C9001A6EA4 /* Frameworks */,
+				D40EF3D722FF94C9001A6EA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D40EF3DB22FF94C9001A6EA4 /* PBXTargetDependency */,
+			);
+			name = SummerCampNewsUITests;
+			productName = SummerCampNewsUITests;
+			productReference = D40EF3D922FF94C9001A6EA4 /* SummerCampNewsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D40EF3B222FF94C7001A6EA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "坂口卓也";
+				TargetAttributes = {
+					D40EF3B922FF94C7001A6EA4 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					D40EF3CD22FF94C9001A6EA4 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = D40EF3B922FF94C7001A6EA4;
+					};
+					D40EF3D822FF94C9001A6EA4 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = D40EF3B922FF94C7001A6EA4;
+					};
+				};
+			};
+			buildConfigurationList = D40EF3B522FF94C7001A6EA4 /* Build configuration list for PBXProject "SummerCampNews" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D40EF3B122FF94C7001A6EA4;
+			productRefGroup = D40EF3BB22FF94C7001A6EA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D40EF3B922FF94C7001A6EA4 /* SummerCampNews */,
+				D40EF3CD22FF94C9001A6EA4 /* SummerCampNewsTests */,
+				D40EF3D822FF94C9001A6EA4 /* SummerCampNewsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D40EF3B822FF94C7001A6EA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D40EF3C822FF94C8001A6EA4 /* LaunchScreen.storyboard in Resources */,
+				D40EF3C522FF94C8001A6EA4 /* Assets.xcassets in Resources */,
+				D40EF3C322FF94C7001A6EA4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D40EF3CC22FF94C9001A6EA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D40EF3D722FF94C9001A6EA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D40EF3B622FF94C7001A6EA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D40EF3C022FF94C7001A6EA4 /* ViewController.swift in Sources */,
+				D40EF3BE22FF94C7001A6EA4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D40EF3CA22FF94C9001A6EA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D40EF3D322FF94C9001A6EA4 /* SummerCampNewsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D40EF3D522FF94C9001A6EA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D40EF3DE22FF94C9001A6EA4 /* SummerCampNewsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D40EF3D022FF94C9001A6EA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D40EF3B922FF94C7001A6EA4 /* SummerCampNews */;
+			targetProxy = D40EF3CF22FF94C9001A6EA4 /* PBXContainerItemProxy */;
+		};
+		D40EF3DB22FF94C9001A6EA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D40EF3B922FF94C7001A6EA4 /* SummerCampNews */;
+			targetProxy = D40EF3DA22FF94C9001A6EA4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D40EF3C122FF94C7001A6EA4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D40EF3C222FF94C7001A6EA4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D40EF3C622FF94C8001A6EA4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D40EF3C722FF94C8001A6EA4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D40EF3E022FF94C9001A6EA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D40EF3E122FF94C9001A6EA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D40EF3E322FF94C9001A6EA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SummerCampNews/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vertex.SummerCampNews;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D40EF3E422FF94C9001A6EA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SummerCampNews/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vertex.SummerCampNews;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D40EF3E622FF94C9001A6EA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SummerCampNewsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vertex.SummerCampNewsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SummerCampNews.app/SummerCampNews";
+			};
+			name = Debug;
+		};
+		D40EF3E722FF94C9001A6EA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SummerCampNewsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vertex.SummerCampNewsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SummerCampNews.app/SummerCampNews";
+			};
+			name = Release;
+		};
+		D40EF3E922FF94C9001A6EA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SummerCampNewsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vertex.SummerCampNewsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SummerCampNews;
+			};
+			name = Debug;
+		};
+		D40EF3EA22FF94C9001A6EA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SummerCampNewsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vertex.SummerCampNewsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SummerCampNews;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D40EF3B522FF94C7001A6EA4 /* Build configuration list for PBXProject "SummerCampNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D40EF3E022FF94C9001A6EA4 /* Debug */,
+				D40EF3E122FF94C9001A6EA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D40EF3E222FF94C9001A6EA4 /* Build configuration list for PBXNativeTarget "SummerCampNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D40EF3E322FF94C9001A6EA4 /* Debug */,
+				D40EF3E422FF94C9001A6EA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D40EF3E522FF94C9001A6EA4 /* Build configuration list for PBXNativeTarget "SummerCampNewsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D40EF3E622FF94C9001A6EA4 /* Debug */,
+				D40EF3E722FF94C9001A6EA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D40EF3E822FF94C9001A6EA4 /* Build configuration list for PBXNativeTarget "SummerCampNewsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D40EF3E922FF94C9001A6EA4 /* Debug */,
+				D40EF3EA22FF94C9001A6EA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D40EF3B222FF94C7001A6EA4 /* Project object */;
+}
