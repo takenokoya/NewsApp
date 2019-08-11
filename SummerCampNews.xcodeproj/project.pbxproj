@@ -15,6 +15,7 @@
 		D40EF3D322FF94C9001A6EA4 /* SummerCampNewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40EF3D222FF94C9001A6EA4 /* SummerCampNewsTests.swift */; };
 		D40EF3DE22FF94C9001A6EA4 /* SummerCampNewsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40EF3DD22FF94C9001A6EA4 /* SummerCampNewsUITests.swift */; };
 		D4B97E5022FFA97A0022E906 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B97E4F22FFA97A0022E906 /* NewsViewController.swift */; };
+		D4B97E5222FFBD500022E906 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4B97E5122FFBD4F0022E906 /* WebKit.framework */; };
 		DDADCC2E4FCB1A8EA00189EA /* Pods_SummerCampNews.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC123C05CD3F86500D926ACE /* Pods_SummerCampNews.framework */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +53,7 @@
 		D40EF3DD22FF94C9001A6EA4 /* SummerCampNewsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummerCampNewsUITests.swift; sourceTree = "<group>"; };
 		D40EF3DF22FF94C9001A6EA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D4B97E4F22FFA97A0022E906 /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		D4B97E5122FFBD4F0022E906 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		DC123C05CD3F86500D926ACE /* Pods_SummerCampNews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SummerCampNews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -60,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4B97E5222FFBD500022E906 /* WebKit.framework in Frameworks */,
 				DDADCC2E4FCB1A8EA00189EA /* Pods_SummerCampNews.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,6 +150,7 @@
 		EB400ADD28191CD2FF007BD8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D4B97E5122FFBD4F0022E906 /* WebKit.framework */,
 				DC123C05CD3F86500D926ACE /* Pods_SummerCampNews.framework */,
 			);
 			name = Frameworks;
